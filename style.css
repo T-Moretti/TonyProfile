@@ -1,0 +1,51 @@
+
+.top-divider {
+  background-color: grey;
+  }
+
+header h1 {
+  margin: 0;
+  padding-top: 30px;
+  color: white;
+  font-family: 'Abril Fatface';
+  text-align: center; 
+}
+
+header h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ /* Applying sthe same font-size and family to paragraphs and lists */
+p, ol, li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+hr {
+  margin-top: 25px; /* I added a top margin because I felt without it, it was too crowded */
+  width: 80%; /* I also preferred the look of a smaller width */
+}
+
+.image-circle {
+    border-radius: 50%; /* cropped the picture into a circle */
+}
+
+article {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer {
+   background-color: grey;
+   color: white;
+   text-align: center;
+   height: 80px;
+}
