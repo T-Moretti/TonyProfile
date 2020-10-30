@@ -49,3 +49,16 @@ footer {
    text-align: center;
    height: 80px;
 }
+
+/* Link Color */
+a:link {
+  color: blue;
+}
+/* Visited Link Color */
+a:visited {
+  color: green;
+}
+/* Hover Link */
+a:hover {
+  color: red;
+}
